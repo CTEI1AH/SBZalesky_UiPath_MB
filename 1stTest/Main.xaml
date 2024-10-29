@@ -122,13 +122,13 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="629.9999999999999,1212" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="629.9999999999999,4312" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Sequence мосбиржа" sap:VirtualizedContainerService.HintSize="552,3362" sap2010:WorkflowViewState.IdRef="Sequence_7">
+    <Sequence DisplayName="Sequence мосбиржа" sap:VirtualizedContainerService.HintSize="552,4289.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_7">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="StartGGGG" />
         <Variable x:TypeArguments="x:String" Name="EndGGGG" />
@@ -139,6 +139,8 @@
         <Variable x:TypeArguments="scg:List(snm:MailMessage)" Name="MailList" />
         <Variable x:TypeArguments="sd:DataTable" Name="TableMosBir1" />
         <Variable x:TypeArguments="sd:DataTable" Name="TableMosBir2" />
+        <Variable x:TypeArguments="s:DateTime" Name="EndDate" />
+        <Variable x:TypeArguments="s:DateTime" Name="StartDate" />
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -146,14 +148,14 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Sequence проверка почты" sap:VirtualizedContainerService.HintSize="518,324" sap2010:WorkflowViewState.IdRef="Sequence_15">
+      <Sequence DisplayName="Sequence проверка почты" sap:VirtualizedContainerService.HintSize="518,57.333333333333336" sap2010:WorkflowViewState.IdRef="Sequence_15">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:Boolean" Name="GoNext" />
         </Sequence.Variables>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <ui:GetOutlookMailMessages Account="{x:Null}" FilterByMessageIds="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Get Outlook Mail Messages" Filter="[Subject] = 'Парсинг' OR [Subject] = 'парсинг'" GetAttachements="False" sap:VirtualizedContainerService.HintSize="416,57.333333333333336" sap2010:WorkflowViewState.IdRef="GetOutlookMailMessages_1" MailFolder="Входящие" MarkAsRead="False" Messages="[MailList]" OnlyUnreadMessages="True" OrderByDate="NewestFirst" Top="10" />
@@ -186,17 +188,13 @@
         </TryCatch>
         <ui:SaveMailAttachments Attachments="{x:Null}" DisplayName="Save Attachments" ExcludeInlineAttachments="False" Filter="Config.xlsx" FolderPath="C:\Users\SBZalesky\Documents\UiPath\1stTest\Mail" sap:VirtualizedContainerService.HintSize="416,117.33333333333333" sap2010:WorkflowViewState.IdRef="SaveMailAttachments_1" Message="[MailList(0)]" OverwriteExisting="False" />
       </Sequence>
-      <ui:ExcelApplicationScope Password="{x:Null}" SensitivityLabel="{x:Null}" AutoSave="False" CreateNewFile="False" DisplayName="Excel Application Scope извлечение даты начала и конца" sap:VirtualizedContainerService.HintSize="518,57.333333333333336" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_2" InstanceCachePeriod="3000" SensitivityOperation="None" WorkbookPath="C:\Users\SBZalesky\Documents\UiPath\1stTest\Mail\Config.xlsx">
+      <ui:ExcelApplicationScope Password="{x:Null}" SensitivityLabel="{x:Null}" AutoSave="False" CreateNewFile="False" DisplayName="Excel Application Scope извлечение даты начала и конца" sap:VirtualizedContainerService.HintSize="518,1228.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_2" InstanceCachePeriod="3000" SensitivityOperation="None" WorkbookPath="C:\Users\SBZalesky\Documents\UiPath\1stTest\Mail\Config.xlsx">
         <ui:ExcelApplicationScope.Body>
           <ActivityAction x:TypeArguments="ui:WorkbookApplication">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do извлечение даты начала и конца" sap:VirtualizedContainerService.HintSize="416,808" sap2010:WorkflowViewState.IdRef="Sequence_8">
-              <Sequence.Variables>
-                <Variable x:TypeArguments="s:DateTime" Name="EndDate" />
-                <Variable x:TypeArguments="s:DateTime" Name="StartDate" />
-              </Sequence.Variables>
+            <Sequence DisplayName="Do извлечение даты начала и конца" sap:VirtualizedContainerService.HintSize="416,1046.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_8">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -208,11 +206,11 @@
                   <OutArgument x:TypeArguments="s:DateTime">[StartDate]</OutArgument>
                 </ui:ExcelReadCell.Result>
               </ui:ExcelReadCell>
-              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Дата начала &quot;+ StartDate.ToString(&quot;dd-MM-yyyy&quot;)]">
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Дата начала &quot;+ StartDate.ToString(&quot;dd_MM_yyyy&quot;)]">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                    <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </ui:LogMessage>
@@ -271,11 +269,11 @@
                   <OutArgument x:TypeArguments="s:DateTime">[EndDate]</OutArgument>
                 </ui:ExcelReadCell.Result>
               </ui:ExcelReadCell>
-              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,57.333333333333336" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Дата окончания &quot;+EndDate.ToString(&quot;dd-MM-yyyy&quot;)]">
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,176.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Дата окончания &quot;+EndDate.ToString(&quot;dd_MM_yyyy&quot;)]">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                    <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </ui:LogMessage>
@@ -334,8 +332,8 @@
         </ui:ExcelApplicationScope.Body>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-            <x:Boolean x:Key="IsPinned">True</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:ExcelApplicationScope>
@@ -1276,7 +1274,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </uix:NApplicationCard>
-      <ui:ExcelApplicationScope Password="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="518,432.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_3" InstanceCachePeriod="3000" SensitivityOperation="None" WorkbookPath="C:\Users\SBZalesky\Documents\UiPath\1stTest\Mail\TestFile">
+      <ui:ExcelApplicationScope Password="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="450,400.6666666666667" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_3" InstanceCachePeriod="3000" SensitivityOperation="None" WorkbookPath="[$&quot;C:\Users\SBZalesky\Documents\UiPath\1stTest\Mail\Report_{StartDate.ToString(&quot;dd_MM_yyyy&quot;)}-{EndDate.ToString(&quot;dd_MM_yyyy&quot;)}&quot;]">
         <ui:ExcelApplicationScope.Body>
           <ActivityAction x:TypeArguments="ui:WorkbookApplication">
             <ActivityAction.Argument>

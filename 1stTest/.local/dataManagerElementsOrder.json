@@ -1,0 +1,30 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "StartGGGG&Sequence_7",
+        "EndGGGG&Sequence_7",
+        "EndMM&Sequence_7",
+        "EndDD&Sequence_7",
+        "StartMM&Sequence_7",
+        "StartDD&Sequence_7",
+        "EndDate&Sequence_8",
+        "StartDate&Sequence_8",
+        "dataMosBir&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

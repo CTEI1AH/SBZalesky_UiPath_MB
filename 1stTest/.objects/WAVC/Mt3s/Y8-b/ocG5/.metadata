@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Element 'text Значения с'",
+  "Type": "Element",
+  "Id": "ocG51_zr402wCfEks-hlJg",
+  "Reference": "CbblHALADUqX_LwDeTOsDw/ocG51_zr402wCfEks-hlJg",
+  "ParentRef": "CbblHALADUqX_LwDeTOsDw/Y8-bWL1kfkyGvKlKR9lvCw",
+  "Created": "2024-10-28T09:30:24.3618721Z",
+  "Updated": "2024-10-28T09:30:24.3618721Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

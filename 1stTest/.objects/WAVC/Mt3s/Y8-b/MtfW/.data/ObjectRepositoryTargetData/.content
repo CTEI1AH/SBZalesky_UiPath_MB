@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Sfq-DpG29EmyKsgMTxhFrA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="f78b64f8-1b06-47bb-9799-e04df5bd9bdb" CvTextArea="510, 810, 214, 24" CvTextArgument="NhAnKaTMBHbIe Kypcbl" CvType="Text" DesignTimeRectangle="512, 809, 214, 29" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;wnd aaname='Срочный рынок — Московская Биржа | Рынки' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' /&gt;&lt;ctrl name='Срочный рынок — Московская Биржа | Рынки' role='document' /&gt;&lt;ctrl name='Индикативные курсы' role='link' /&gt;&lt;ctrl name='Индикативные курсы' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Срочный рынок — Московская Биржа | Рынки' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' /&gt;&lt;ctrl name='Срочный рынок — Московская Биржа | Рынки' role='document' /&gt;&lt;ctrl name='Индикативные курсы' role='link' /&gt;&lt;ctrl name='Индикативные курсы' role='text' automationid='' /&gt;" Guid="8569dc91-74c1-47b6-83c8-312652790cc7" ScopeSelectorArgument="&lt;wnd app='browser.exe' cls='YandexBrowser_WidgetWin_1' title='4: Срочный рынок — Московская Биржа | Рынки — Яндекс Браузер' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b69bcab23d4adb53967d59b0838905c1.png" xmlns="">0foZMdoYcmkCf3Vse6PEkOg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

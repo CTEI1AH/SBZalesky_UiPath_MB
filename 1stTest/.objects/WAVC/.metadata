@@ -1,0 +1,12 @@
+﻿{
+  "Name": "4 Московская Биржа — Яндекс Браузер",
+  "Type": "App",
+  "Id": "WAVCNFaK0ECpZ0MXLQkbYQ",
+  "Reference": "CbblHALADUqX_LwDeTOsDw/WAVCNFaK0ECpZ0MXLQkbYQ",
+  "Created": "2024-10-25T12:09:40.3281675Z",
+  "Updated": "2024-10-25T12:09:40.3281675Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IxQa6dxd50mxqmtqnKR7qQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="6019c4c2-cdb3-4fe1-a192-26628b4536d5" CvElementArea="672, 641, 214, 71" CvType="InputBox" DesignTimeRectangle="693, 650, 136, 61" DesignTimeScaleFactor="1.5" FuzzySelectorArgument="&lt;wnd aaname='Валютная пара USD-RUB — курс сегодня на валютном рынке — Московс*' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' /&gt;&lt;ctrl name='Валютная пара USD-RUB — курс сегодня на валютном рынке — Московс*' role='document' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" Guid="cec7ad14-92eb-400e-994f-633a479f6d09" ScopeSelectorArgument="&lt;wnd app='browser.exe' cls='YandexBrowser_WidgetWin_1' title='2: Валютная пара USD-RUB — курс сегодня на валютном рынке — Моск*' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6019c4c2-cdb3-4fe1-a192-26628b4536d5" CvTextArea="548, 668, 115, 21" CvTextArgument="3ha4eHnA C" CvType="Text" DesignTimeRectangle="549, 663, 115, 29" ElementType="Text" FullSelectorArgument="&lt;wnd aaname='Валютная пара USD-RUB — курс сегодня на валютном рынке — Московс*' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' /&gt;&lt;ctrl name='Валютная пара USD-RUB — курс сегодня на валютном рынке — Московс*' role='document' /&gt;&lt;ctrl name='Значения с' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Валютная пара USD-RUB — курс сегодня на валютном рынке — Московс*' cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' /&gt;&lt;ctrl name='Валютная пара USD-RUB — курс сегодня на валютном рынке — Московс*' role='document' /&gt;&lt;ctrl name='Значения с' role='text' automationid='' /&gt;" Guid="17e41232-bb19-4cac-aad2-591ff17791db" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="88a18e4a01034ae2c64815ddfc8198ab.png" xmlns="">0uQjx7xdNB0iA1nLGoUsVxw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

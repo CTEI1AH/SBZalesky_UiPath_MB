@@ -12,6 +12,10 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "TableMosBir2&Sequence_7",
+        "TableMosBir1&Sequence_7",
+        "EndDate&Sequence_8",
+        "StartDate&Sequence_8",
         "StartGGGG&Sequence_7",
         "EndGGGG&Sequence_7",
         "EndMM&Sequence_7",
@@ -19,10 +23,7 @@
         "StartMM&Sequence_7",
         "StartDD&Sequence_7",
         "MailList&Sequence_7",
-        "GoNext&Sequence_15",
-        "EndDate&Sequence_8",
-        "StartDate&Sequence_8",
-        "dataMosBir&Sequence_9"
+        "GoNext&Sequence_15"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],

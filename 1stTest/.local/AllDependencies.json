@@ -149,18 +149,6 @@
           }
         }
       },
-      "DynamicExpresso.Core/2.12.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.7.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/DynamicExpresso.Core.dll": {}
-        }
-      },
       "ExcelNumberFormat/1.1.0": {
         "type": "package",
         "compile": {
@@ -1535,24 +1523,6 @@
           }
         }
       },
-      "net.adamec.lib.common.dmn.engine/1.1.1": {
-        "type": "package",
-        "dependencies": {
-          "DynamicExpresso.Core": "2.12.0",
-          "NLog": "4.7.15",
-          "RadCommons.core": "2.0.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/net.adamec.lib.common.dmn.engine.dll": {
-            "related": ".pdb"
-          }
-        }
-      },
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -1632,7 +1602,7 @@
           }
         }
       },
-      "NLog/4.7.15": {
+      "NLog/4.5.11": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {
@@ -1697,19 +1667,6 @@
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "RadCommons.core/2.0.1": {
-        "type": "package",
-        "dependencies": {
-          "NLog": "4.6.5",
-          "Newtonsoft.Json": "12.0.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/net.adamec.lib.common.core.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
@@ -5086,7 +5043,7 @@
           }
         }
       },
-      "UiPath.System.Activities/24.10.6": {
+      "UiPath.System.Activities/24.11.0-preview": {
         "type": "package",
         "dependencies": {
           "CsvHelper": "16.0.0",
@@ -5100,13 +5057,12 @@
           "Microsoft.Rest.ClientRuntime": "2.3.24",
           "Microsoft.VisualBasic": "10.3.0",
           "SharpZipLib": "1.3.3",
-          "System.Activities.ViewModels": "1.0.0-20240905.3",
+          "System.Activities.ViewModels": "1.0.0-20240418.6",
           "System.Management.Automation": "7.2.22",
           "UiPath.CodedWorkflows": "24.10.0",
-          "UiPath.Platform": "24.11.1",
-          "UiPath.System.Activities.Runtime": "24.10.6",
-          "UiPath.Telemetry.Client": "2.3.3",
-          "net.adamec.lib.common.dmn.engine": "1.1.1"
+          "UiPath.Platform": "24.11.0-alpha.6487324",
+          "UiPath.System.Activities.Runtime": "24.11.0-preview",
+          "UiPath.Telemetry.Client": "2.3.3"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -5157,10 +5113,10 @@
           }
         }
       },
-      "UiPath.System.Activities.Runtime/24.10.6": {
+      "UiPath.System.Activities.Runtime/24.11.0-preview": {
         "type": "package",
         "dependencies": {
-          "UiPath.System.Activities.Runtime.Windows": "24.10.6"
+          "UiPath.System.Activities.Runtime.Windows": "24.11.0-preview"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -5169,7 +5125,7 @@
           "lib/net6.0-windows7.0/UiPath.System.Activities.Package.Runtime.dll": {}
         }
       },
-      "UiPath.System.Activities.Runtime.Windows/24.10.6": {
+      "UiPath.System.Activities.Runtime.Windows/24.11.0-preview": {
         "type": "package",
         "dependencies": {
           "CsvHelper": "16.0.0",
@@ -5186,9 +5142,8 @@
           "SharpZipLib": "1.3.3",
           "System.Management.Automation": "7.2.22",
           "UiPath.CodedWorkflows": "24.10.0",
-          "UiPath.Platform": "24.11.1",
-          "UiPath.Telemetry.Client": "2.3.3",
-          "net.adamec.lib.common.dmn.engine": "1.1.1"
+          "UiPath.Platform": "24.11.0-alpha.6487324",
+          "UiPath.Telemetry.Client": "2.3.3"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -5982,18 +5937,6 @@
           "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "DynamicExpresso.Core/2.12.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.7.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/DynamicExpresso.Core.dll": {}
         }
       },
       "ExcelNumberFormat/1.1.0": {
@@ -7267,24 +7210,6 @@
           }
         }
       },
-      "net.adamec.lib.common.dmn.engine/1.1.1": {
-        "type": "package",
-        "dependencies": {
-          "DynamicExpresso.Core": "2.12.0",
-          "NLog": "4.7.15",
-          "RadCommons.core": "2.0.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {
-            "related": ".pdb"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/net.adamec.lib.common.dmn.engine.dll": {
-            "related": ".pdb"
-          }
-        }
-      },
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -7364,7 +7289,7 @@
           }
         }
       },
-      "NLog/4.7.15": {
+      "NLog/4.5.11": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {
@@ -7429,19 +7354,6 @@
           "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "RadCommons.core/2.0.1": {
-        "type": "package",
-        "dependencies": {
-          "NLog": "4.6.5",
-          "Newtonsoft.Json": "12.0.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/net.adamec.lib.common.core.dll": {}
         }
       },
       "runtime.any.System.Collections/4.3.0": {
@@ -10792,7 +10704,7 @@
           }
         }
       },
-      "UiPath.System.Activities/24.10.6": {
+      "UiPath.System.Activities/24.11.0-preview": {
         "type": "package",
         "dependencies": {
           "CsvHelper": "16.0.0",
@@ -10806,13 +10718,12 @@
           "Microsoft.Rest.ClientRuntime": "2.3.24",
           "Microsoft.VisualBasic": "10.3.0",
           "SharpZipLib": "1.3.3",
-          "System.Activities.ViewModels": "1.0.0-20240905.3",
+          "System.Activities.ViewModels": "1.0.0-20240418.6",
           "System.Management.Automation": "7.2.22",
           "UiPath.CodedWorkflows": "24.10.0",
-          "UiPath.Platform": "24.11.1",
-          "UiPath.System.Activities.Runtime": "24.10.6",
-          "UiPath.Telemetry.Client": "2.3.3",
-          "net.adamec.lib.common.dmn.engine": "1.1.1"
+          "UiPath.Platform": "24.11.0-alpha.6487324",
+          "UiPath.System.Activities.Runtime": "24.11.0-preview",
+          "UiPath.Telemetry.Client": "2.3.3"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -10863,10 +10774,10 @@
           }
         }
       },
-      "UiPath.System.Activities.Runtime/24.10.6": {
+      "UiPath.System.Activities.Runtime/24.11.0-preview": {
         "type": "package",
         "dependencies": {
-          "UiPath.System.Activities.Runtime.Windows": "24.10.6"
+          "UiPath.System.Activities.Runtime.Windows": "24.11.0-preview"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -10875,7 +10786,7 @@
           "lib/net6.0-windows7.0/UiPath.System.Activities.Package.Runtime.dll": {}
         }
       },
-      "UiPath.System.Activities.Runtime.Windows/24.10.6": {
+      "UiPath.System.Activities.Runtime.Windows/24.11.0-preview": {
         "type": "package",
         "dependencies": {
           "CsvHelper": "16.0.0",
@@ -10892,9 +10803,8 @@
           "SharpZipLib": "1.3.3",
           "System.Management.Automation": "7.2.22",
           "UiPath.CodedWorkflows": "24.10.0",
-          "UiPath.Platform": "24.11.1",
-          "UiPath.Telemetry.Client": "2.3.3",
-          "net.adamec.lib.common.dmn.engine": "1.1.1"
+          "UiPath.Platform": "24.11.0-alpha.6487324",
+          "UiPath.Telemetry.Client": "2.3.3"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -11701,18 +11611,6 @@
         "lib/netstandard1.3/DocumentFormat.OpenXml.xml",
         "lib/netstandard2.0/DocumentFormat.OpenXml.dll",
         "lib/netstandard2.0/DocumentFormat.OpenXml.xml"
-      ]
-    },
-    "DynamicExpresso.Core/2.12.0": {
-      "sha512": "kcapXLYymUP+a4d1NhdySqxE0eZ/5k7KMQczxvqdl1f1gnCUOCGtshrCU5H+Dh+dx5Y1QcHaTaoNdytXI87Vrw==",
-      "type": "package",
-      "path": "dynamicexpresso.core/2.12.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "dynamicexpresso.core.2.12.0.nupkg.sha512",
-        "dynamicexpresso.core.nuspec",
-        "lib/netstandard2.0/DynamicExpresso.Core.dll"
       ]
     },
     "ExcelNumberFormat/1.1.0": {
@@ -13930,19 +13828,6 @@
         "namotion.reflection.nuspec"
       ]
     },
-    "net.adamec.lib.common.dmn.engine/1.1.1": {
-      "sha512": "nd78WOyWaYsnfIpaw8WsS3SfyEh9trs08M10YI1hPzxGSfhfoUNp2tchaHI4xt5knNPO3ol0fZsfI6XaqU5tag==",
-      "type": "package",
-      "path": "net.adamec.lib.common.dmn.engine/1.1.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/net.adamec.lib.common.dmn.engine.dll",
-        "lib/netstandard2.0/net.adamec.lib.common.dmn.engine.pdb",
-        "net.adamec.lib.common.dmn.engine.1.1.1.nupkg.sha512",
-        "net.adamec.lib.common.dmn.engine.nuspec"
-      ]
-    },
     "NETStandard.Library/1.6.1": {
       "sha512": "WcSp3+vP+yHNgS8EV5J7pZ9IRpeDuARBPN28by8zqff1wJQXm26PVU8L3/fYLBJVU7BtDyqNVWq2KlCVvSSR4A==",
       "type": "package",
@@ -14006,10 +13891,10 @@
         "njsonschema.nuspec"
       ]
     },
-    "NLog/4.7.15": {
-      "sha512": "vXMmsK17hXnMsKd8BdCrJzvb8JMT0+cPgBGRfnqcXIb6y8b6RMIZexO4hMhQgifcTHgU7dbubvCR5A5wX6Ne+A==",
+    "NLog/4.5.11": {
+      "sha512": "Yni/XrDfbEhaCSXJsDkmW/n5AunhOxZ7OKKb+0U1I1/d8ZaKt3Jjzf20g/xPiKljmYuZKYqI5iI34g138kK8UQ==",
       "type": "package",
-      "path": "nlog/4.7.15",
+      "path": "nlog/4.5.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -14035,7 +13920,7 @@
         "lib/wp8/NLog.xml",
         "lib/xamarinios10/NLog.dll",
         "lib/xamarinios10/NLog.xml",
-        "nlog.4.7.15.nupkg.sha512",
+        "nlog.4.5.11.nupkg.sha512",
         "nlog.nuspec"
       ]
     },
@@ -14115,18 +14000,6 @@
         "lib/netstandard2.0/BouncyCastle.Crypto.xml",
         "portable.bouncycastle.1.8.9.nupkg.sha512",
         "portable.bouncycastle.nuspec"
-      ]
-    },
-    "RadCommons.core/2.0.1": {
-      "sha512": "TDFF8e+nEBu3hwlPJwCvR1N2y8UDu2W+F4OhvBgJoXNj46JMIrEqlaa2EEr8BVgdXPS88GJSPEmWhdcbn2rXoQ==",
-      "type": "package",
-      "path": "radcommons.core/2.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/net.adamec.lib.common.core.dll",
-        "radcommons.core.2.0.1.nupkg.sha512",
-        "radcommons.core.nuspec"
       ]
     },
     "runtime.any.System.Collections/4.3.0": {
@@ -21459,10 +21332,10 @@
         "uipath.platform.nuspec"
       ]
     },
-    "UiPath.System.Activities/24.10.6": {
-      "sha512": "j23frmR493QzDsyRqudmlFPmBQ2mLirFu7hd9JlGYYYaXTpBQTGpNr9ToQ5RmCIGxNNXlWsIanYIUL+j4AHTZA==",
+    "UiPath.System.Activities/24.11.0-preview": {
+      "sha512": "qh3+fHgCaHmN4Dp4sqkfkQ6kTtgVR5rJKw8onH4qs0j/TmgIcT1/yabwIeFSvpYdmJ96+uC6IxL04fYqgkW2PQ==",
       "type": "package",
-      "path": "uipath.system.activities/24.10.6",
+      "path": "uipath.system.activities/24.11.0-preview",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -21497,28 +21370,28 @@
         "lib/net6.0-windows7.0/zh-TW/UiPath.System.Activities.Design.resources.dll",
         "lib/net6.0-windows7.0/zu/UiPath.System.Activities.Design.resources.dll",
         "lib/net6.0/UiPath.System.Activities.ViewModels.dll",
-        "uipath.system.activities.24.10.6.nupkg.sha512",
+        "uipath.system.activities.24.11.0-preview.nupkg.sha512",
         "uipath.system.activities.nuspec"
       ]
     },
-    "UiPath.System.Activities.Runtime/24.10.6": {
-      "sha512": "dzkdn9W30skb+mgtowW+g+anmcsc0soo55deZI4cEFqzJWqI1+P1tHafEijdSGRMVgP9s/W+kUppHESz8TE5tA==",
+    "UiPath.System.Activities.Runtime/24.11.0-preview": {
+      "sha512": "FU4jCzcrTEI4vpwRrnlEzzrXpSwc0VH+zhDxCU0SFaVAtaoD9cqFt67npe0742x1TN4VHHAf0WgmR0pH3XKV4w==",
       "type": "package",
-      "path": "uipath.system.activities.runtime/24.10.6",
+      "path": "uipath.system.activities.runtime/24.11.0-preview",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net461/UiPath.System.Activities.Package.Runtime.dll",
         "lib/net6.0-windows7.0/UiPath.System.Activities.Package.Runtime.dll",
         "lib/net6.0/UiPath.System.Activities.Package.Runtime.dll",
-        "uipath.system.activities.runtime.24.10.6.nupkg.sha512",
+        "uipath.system.activities.runtime.24.11.0-preview.nupkg.sha512",
         "uipath.system.activities.runtime.nuspec"
       ]
     },
-    "UiPath.System.Activities.Runtime.Windows/24.10.6": {
-      "sha512": "gHAXxqbiJ5Z6Nnc+RrWASjJyoJ3/UIqPTjLHhEXlZGNyB92y/4yBRywxx6x/c5fOPKcuEb7CDR/vzApNRmi5/A==",
+    "UiPath.System.Activities.Runtime.Windows/24.11.0-preview": {
+      "sha512": "tJHXZGtlQYIctQL793LVBV1I2a2xE9PYLDHdslNF5M1ZfnNwPyZ8YL4ugi7A4s+LhKxrIZ2XmJwSLhaxZh6i0Q==",
       "type": "package",
-      "path": "uipath.system.activities.runtime.windows/24.10.6",
+      "path": "uipath.system.activities.runtime.windows/24.11.0-preview",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -21554,7 +21427,7 @@
         "lib/net6.0-windows7.0/zh-CN/UiPath.System.Activities.resources.dll",
         "lib/net6.0-windows7.0/zh-TW/UiPath.System.Activities.resources.dll",
         "lib/net6.0-windows7.0/zu/UiPath.System.Activities.resources.dll",
-        "uipath.system.activities.runtime.windows.24.10.6.nupkg.sha512",
+        "uipath.system.activities.runtime.windows.24.11.0-preview.nupkg.sha512",
         "uipath.system.activities.runtime.windows.nuspec"
       ]
     },
@@ -22502,7 +22375,7 @@
       "UiPath.Credentials.Activities >= 2.1.0 <= 2.1.0",
       "UiPath.Excel.Activities >= 2.24.2 <= 2.24.2",
       "UiPath.Mail.Activities >= 1.23.11 <= 1.23.11",
-      "UiPath.System.Activities >= 24.10.6 <= 24.10.6",
+      "UiPath.System.Activities >= 24.11.0-preview <= 24.11.0-preview",
       "UiPath.Testing.Activities >= 24.10.3 <= 24.10.3",
       "UiPath.UIAutomation.Activities >= 24.10.6 <= 24.10.6"
     ]
@@ -22514,9 +22387,9 @@
     "restore": {
       "projectUniqueName": "1stTest",
       "projectName": "1stTest",
-      "projectPath": "C:\\Users\\SBZalesky\\Documents\\UiPath\\1stTest\\.local",
+      "projectPath": "C:\\Users\\SBZalesky\\Documents\\UIpath\\1stTest\\.local",
       "packagesPath": "C:\\Users\\SBZalesky\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SBZalesky\\Documents\\UiPath\\1stTest\\.local"
+      "outputPath": "C:\\Users\\SBZalesky\\Documents\\UIpath\\1stTest\\.local"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -22539,7 +22412,7 @@
           "UiPath.System.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[24.10.6, 24.10.6]"
+            "version": "[24.11.0-preview, 24.11.0-preview]"
           },
           "UiPath.Testing.Activities": {
             "include": "Runtime",

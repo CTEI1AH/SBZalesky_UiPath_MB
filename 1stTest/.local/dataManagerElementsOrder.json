@@ -12,6 +12,7 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "MonthCount&Sequence_8",
         "StartGGGG&Sequence_7",
         "EndGGGG&Sequence_7",
         "EndMM&Sequence_7",
@@ -28,17 +29,7 @@
         "EndMM_Name&Sequence_7",
         "strok&Sequence_7",
         "strok_endl&Sequence_7",
-        "GoNext&Sequence_15",
-        "MonthCount&Sequence_8",
-        "i&Sequence_9",
-        "TableList1&Sequence_9",
-        "dataMosBir1&Sequence_9",
-        "dataMosBir2&Sequence_9",
-        "книга&Sequence_46",
-        "i_start&Sequence_46",
-        "i_end&Sequence_46",
-        "DT_Head&Sequence_46",
-        "таблицаданных&Sequence_47"
+        "GoNext&Sequence_15"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],

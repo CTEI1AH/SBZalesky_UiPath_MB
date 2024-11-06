@@ -12,6 +12,7 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "таблицаданных&Sequence_47",
         "MonthCount&Sequence_8",
         "i&Sequence_9",
         "TableList1&Sequence_9",
@@ -21,7 +22,6 @@
         "i_start&Sequence_46",
         "i_end&Sequence_46",
         "DT_Head&Sequence_46",
-        "таблицаданных&Sequence_47",
         "StartGGGG&Sequence_7",
         "EndGGGG&Sequence_7",
         "EndMM&Sequence_7",
